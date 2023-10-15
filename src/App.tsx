@@ -1,7 +1,9 @@
+import Navbar from './components/Navbar';
+
 const App = () => {
 	return (
-		<div className='px-60 py-5 bg-gray-900'>
-			<p>NavBar</p>
+		<div className='px-60 bg-gray-800'>
+			<Navbar />
 			<p>hero with photo</p>
 			<p>download cv</p>
 			<p>experiences</p>
