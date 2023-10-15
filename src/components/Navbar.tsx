@@ -1,5 +1,3 @@
-import React from 'react';
-import cagrisayir from '../assets/cagrisayir_transparent.png';
 import { VscGithubInverted } from 'react-icons/vsc';
 import { AiFillLinkedin } from 'react-icons/ai';
 
