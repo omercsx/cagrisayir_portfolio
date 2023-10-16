@@ -3,7 +3,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 
 const Navbar = () => {
 	return (
-		<div className='flex justify-between items-center text-white py-10'>
+		<div className='flex flex-col md:flex-row justify-between items-center text-white py-10 gap-3'>
 			<div className='flex gap-1 items-center text-center'>
 				<p className='text-2xl'>{'</>'}</p>
 				<p className='text-2xl font-mono font-medium'>cagrisayir</p>
