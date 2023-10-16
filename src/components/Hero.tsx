@@ -24,7 +24,7 @@ const Hero = () => {
 					target='_blank'
 					rel='noreferrer'
 				>
-					<button className='border-b-2 font-medium border-lime-500 text-center text-base md:text-lg lg:text-xl w-max'>
+					<button className='border-b-2 font-medium border-lime-500 hover:text-lime-500 text-center text-base md:text-lg lg:text-xl w-max'>
 						Download my CV here!
 					</button>
 				</a>
