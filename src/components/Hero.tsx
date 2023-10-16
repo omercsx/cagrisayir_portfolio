@@ -1,5 +1,5 @@
 import CV from '../assets/cagrisayir_frontend_resume.pdf';
-import portrait from '../assets/portrait.jpeg';
+import portrait from '../assets/portrait2.png';
 
 const Hero = () => {
 	return (
@@ -32,7 +32,7 @@ const Hero = () => {
 			<img
 				src={portrait}
 				alt='portrait of mine'
-				className='h-auto w-auto md:h-48 md:w-48 lg:h-64 lg:w-72 xl:h-96 xl:w-96'
+				className='h-auto w-auto md:h-60 md:w-60 lg:h-72 lg:w-84 xl:h-96 xl:w-96'
 			/>
 		</div>
 	);
