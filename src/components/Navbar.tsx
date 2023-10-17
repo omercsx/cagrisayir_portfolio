@@ -1,5 +1,6 @@
 import { VscGithubInverted } from 'react-icons/vsc';
 import { AiFillLinkedin } from 'react-icons/ai';
+import { SiLeetcode } from 'react-icons/si';
 
 const Navbar = () => {
 	return (
@@ -14,6 +15,9 @@ const Navbar = () => {
 				</a>
 				<a href='https://www.linkedin.com/in/cagrisayir' target='_blank'>
 					<AiFillLinkedin className='text-3xl text-white' />
+				</a>
+				<a href='https://leetcode.com/cagrisayir/' target='_blank'>
+					<SiLeetcode className='text-3xl text-white' />
 				</a>
 			</div>
 		</div>
