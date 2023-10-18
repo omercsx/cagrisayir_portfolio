@@ -32,7 +32,7 @@ const Hero = () => {
 			<img
 				src={portrait}
 				alt='portrait of mine'
-				className='h-auto w-auto md:h-60 md:w-60 lg:h-72 lg:w-84 xl:h-96 xl:w-96'
+				className='h-auto w-auto md:h-60 md:w-60 lg:h-72 lg:w-84 xl:h-96 xl:w-[30rem]'
 			/>
 		</div>
 	);
