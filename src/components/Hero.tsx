@@ -15,8 +15,8 @@ const Hero = () => {
 					</p>
 				</div>
 				<p className='text-lg md:text-xl xl:text-3xl 2xl:text-5xl'>
-					Based in <span className='text-red-400'>Ontario/Canada</span>, I'm a
-					frontend developer <br /> who loves to build web applications.
+					Based in <span className='text-red-700'>Turkiye</span>, I'm a frontend
+					developer <br /> who loves to build web applications.
 				</p>
 				<a
 					href={CV}
