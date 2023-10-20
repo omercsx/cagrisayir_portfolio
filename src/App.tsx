@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 
 const App = () => {
 	return (
-		<div className='px-10 md:px-20 lg:px-40 xl:px-60 bg-black divide-y-2 divide-white'>
+		<div className='h-full px-10 md:px-20 lg:px-40 xl:px-60 bg-black divide-y-2 divide-white'>
 			<Navbar />
 			<Hero />
 			<Experiences />
