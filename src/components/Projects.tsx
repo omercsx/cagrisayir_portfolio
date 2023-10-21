@@ -1,5 +1,6 @@
 import ProjectCard from './ProjectCard';
 import gamehub from '../assets/gamehub.jpeg';
+import qrcode from '../assets/qrcode.png';
 
 const Projects = () => {
 	return (
@@ -13,39 +14,15 @@ const Projects = () => {
 					link='https://gamehub.cagrisayir.dev'
 				/>
 				<ProjectCard
-					name='Project 2'
-					image='https://via.placeholder.com/150'
-					description='This is a project2'
-					link='https://google.com'
+					name='QR Code Component'
+					image={qrcode}
+					description='Basic QR Code Component'
+					link='https://qr.cagrisayir.dev'
 				/>
 				<ProjectCard
-					name='Project 2'
+					name='Coin Wallet'
 					image='https://via.placeholder.com/150'
-					description='This is a project2'
-					link='https://google.com'
-				/>
-				<ProjectCard
-					name='Project 2'
-					image='https://via.placeholder.com/150'
-					description='This is a project2'
-					link='https://google.com'
-				/>
-				<ProjectCard
-					name='Project 2'
-					image='https://via.placeholder.com/150'
-					description='This is a project2'
-					link='https://google.com'
-				/>
-				<ProjectCard
-					name='Project 2'
-					image='https://via.placeholder.com/150'
-					description='This is a project2'
-					link='https://google.com'
-				/>
-				<ProjectCard
-					name='Project 2'
-					image='https://via.placeholder.com/150'
-					description='This is a project2'
+					description='Coin Prices Tracker Project'
 					link='https://google.com'
 				/>
 				<ProjectCard
