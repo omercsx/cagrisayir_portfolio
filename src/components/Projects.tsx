@@ -25,18 +25,6 @@ const Projects = () => {
 					description='Coin Prices Tracker Project'
 					link='https://google.com'
 				/>
-				<ProjectCard
-					name='Project 2'
-					image='https://via.placeholder.com/150'
-					description='This is a project2'
-					link='https://google.com'
-				/>
-				<ProjectCard
-					name='Project 2'
-					image='https://via.placeholder.com/150'
-					description='This is a project2'
-					link='https://google.com'
-				/>
 			</div>
 		</div>
 	);
