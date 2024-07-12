@@ -23,7 +23,7 @@ const Projects = () => {
 					name='Coin Wallet'
 					image='https://via.placeholder.com/150'
 					description='Coin Prices Tracker Project'
-					link='https://google.com'
+					link='https://github.com/omercsx/advanced-coin-wallet'
 				/>
 			</div>
 		</div>

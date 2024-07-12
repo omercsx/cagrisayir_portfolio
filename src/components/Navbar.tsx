@@ -10,13 +10,13 @@ const Navbar = () => {
 				<p className='text-2xl font-mono font-medium'>cagrisayir</p>
 			</div>
 			<div className='flex gap-5  items-center'>
-				<a href='https://www.github.com/cagrisayir' target='_blank'>
+				<a href='https://www.github.com/omercsx' target='_blank'>
 					<VscGithubInverted className='text-2xl text-white' />
 				</a>
-				<a href='https://www.linkedin.com/in/cagrisayir' target='_blank'>
+				<a href='https://www.linkedin.com/in/omercs' target='_blank'>
 					<AiFillLinkedin className='text-3xl text-white' />
 				</a>
-				<a href='https://leetcode.com/cagrisayir/' target='_blank'>
+				<a href='https://leetcode.com/omercs/' target='_blank'>
 					<SiLeetcode className='text-3xl text-white' />
 				</a>
 			</div>
