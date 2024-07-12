@@ -1,5 +1,5 @@
-import CV from '../assets/cagrisayir_frontend_resume.pdf';
-import portrait from '../assets/portrait2.png';
+// import CV from '../assets/cagrisayir_frontend_resume.pdf';
+// import portrait from '../assets/portrait2.png';
 
 const Hero = () => {
 	return (
@@ -10,17 +10,20 @@ const Hero = () => {
 						Nice to meet you!
 					</p>
 					<p className='text-xl md:text-4xl xl:text-5xl 2xl:text-9xl'>
-						I'm <span className='border-b-4 border-lime-500'>Cagri Sayir</span>
+						I'm{' '}
+						<span className='border-b-4 border-lime-500'>Omer C. Sayir</span>
 						{'.'}
 					</p>
 				</div>
 				<p className='text-lg md:text-xl xl:text-3xl 2xl:text-5xl'>
-					Based in <span className='text-red-700'>Turkiye</span>, I'm a frontend
-					developer <br /> who loves to build web applications.
+					Based in <span className='text-red-700'>Ontario/Canada</span>, I'm a
+					full-stack developer <br /> who loves to build web and mobile
+					applications.
 				</p>
 				<a
-					href={CV}
-					download='FE-cagrisayir-resume'
+					href={
+						'https://omercsx.s3.ca-central-1.amazonaws.com/resumes/omercs_Resume_FE.pdf'
+					}
 					target='_blank'
 					rel='noreferrer'
 				>
@@ -30,7 +33,9 @@ const Hero = () => {
 				</a>
 			</div>
 			<img
-				src={portrait}
+				src={
+					'https://omercsx.s3.ca-central-1.amazonaws.com/personal/potrait2-removebg.png'
+				}
 				alt='portrait of mine'
 				className='h-auto w-auto md:h-60 md:w-60 lg:h-72 lg:w-84 xl:h-96 xl:w-[30rem]'
 			/>
